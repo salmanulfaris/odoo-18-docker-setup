@@ -59,7 +59,7 @@ docker compose version
 
 1. Open a terminal and navigate to the project directory:
    ```sh
-   cd /path/to/odoo-volume
+   cd /path/to/this-folder
    ```
 2. Start the services:
    ```sh
@@ -75,7 +75,10 @@ To stop the services, press `Ctrl+C` or run:
 docker compose down
 ```
 
-## 5. Troubleshooting
+## 5. Adding Addons
+To Install Third party applications, place in inside `addons` folder and restart the docker
+
+## 6. Troubleshooting
 - Ensure Docker is running before executing Docker Compose commands.
 - For permission issues on Linux, ensure your user is in the `docker` group.
 - Check logs with:
